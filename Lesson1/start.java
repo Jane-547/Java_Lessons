@@ -15,15 +15,16 @@ public class start {
                     task001.mnogoch();
                     break;
 
-//                case 2:
-//                    task002.average();
-//                    break;
+                case 2:
+                    task002.average();
+                    break;
 
                 case 10:
                     return;
 
                 default:
                     System.out.println("Вы ввели неверное значение.");
+                    sc.close();
                     break;
             }
         }
